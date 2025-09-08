@@ -17,12 +17,7 @@
 1. Прикрепите в файл README.md скриншот авторизации в админке.
 2. Приложите в файл README.md текст использованных команд в GitHub.
 
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
+### РЕШЕНИЕ 1
 
 ```
 apt install postgresql
@@ -37,8 +32,7 @@ sudo -u postgres createdb -O zabbix zabbix
 # systemctl enable zabbix-server zabbix-agent apache2
 ```
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота 1](ссылка на скриншот 1)`
+![.alt text](https://github.com/Divan4eg/zabbix-homework/blob/main/img/img1.png)
 
 
 ---
@@ -62,27 +56,19 @@ sudo -u postgres createdb -O zabbix zabbix
 3. Приложите в файл README.md скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные.
 4. Приложите в файл README.md текст использованных команд в GitHub
 
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
+### РЕШЕНИЕ 2
 
 ```
-# wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.0+ubuntu22.04_all.deb
-# dpkg -i zabbix-release_latest_7.0+ubuntu22.04_all.deb
-# apt update
+wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.0+ubuntu22.04_all.deb
+dpkg -i zabbix-release_latest_7.0+ubuntu22.04_all.deb
+apt update
 apt install zabbix-agent
-# systemctl restart zabbix-agent
-# systemctl enable zabbix-agent
-....
-....
-....
+systemctl restart zabbix-agent
+systemctl enable zabbix-agent
 ```
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота 2](ссылка на скриншот 2)`
+![.alt text](https://github.com/Divan4eg/zabbix-homework/blob/main/img/img2.png)
+![.alt text](https://github.com/Divan4eg/zabbix-homework/blob/main/img/img3.png)
 
 
 ---
